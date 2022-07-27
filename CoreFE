@@ -1,0 +1,63 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("Core FE", "Synapse")
+
+--Home
+local Tab = Window:NewTab("Home")
+local Section = Tab:NewSection("Home")
+
+Section:NewLabel("Hey! Welcome to Core FE!")
+Section:NewLabel("We were originally Core Serverside but it ended.")
+Section:NewLabel("Our discord link:")
+Section:NewLabel("https://discord.gg/CkCnYyf73K")
+
+--Main
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("Scripts")
+
+Section:NewButton("Infinite Yield", "Classic Admin Script", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end)
+
+Section:NewButton("Reviz Admin", "An admin script that we all know.", function()
+    loadstring(game:HttpGet('https://pastebin.com/raw/Caniwq2N'))()
+end)
+
+    Section:NewButton("Adonis FE", "Adonis Admin But FE!?!??!", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/MQ3wc7Zq", true))()
+end)
+
+Section:NewButton("Prison Life Admin", "Basically an admin script for prison life", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+Section:NewButton("Nexus Hub", "A hub that probally uses the same library as us", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
+end)
+
+
+
+--Player
+local Tab = Window:NewTab("Player")
+local Section = Tab:NewSection("Player Stuff")
+
+Section:NewSlider("Walkspeed", "Sets your walkspeed", 500, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+
+Section:NewSlider("JumpPower", "Sets your JumpPower", 500, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+Section:NewButton("Noclip", "Press E to toggle", function()
+    loadstring(game:HttpGet("https://pastebin.pl/view/raw/f2ed48df", true))()
+end)
+
+--OTHER
+
+local Tab = Window:NewTab("Other")
+local Section = Tab:NewSection("Other")
+
+Section:NewButton("Chat Spoofer", "Chat as someone else", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+end)
