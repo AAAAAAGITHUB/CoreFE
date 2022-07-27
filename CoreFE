@@ -27,7 +27,7 @@ end)
     loadstring(game:HttpGet("https://pastebin.com/raw/MQ3wc7Zq", true))()
 end)
 
-Section:NewButton("Prison Life Admin", "Basically an admin script for prison life", function()
+Section:NewButton("Septex Admin", "Basically an admin script for prison life", function()
     loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
 end)
 
