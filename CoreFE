@@ -28,7 +28,7 @@ end)
 end)
 
 Section:NewButton("Prison Life Admin", "Basically an admin script for prison life", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+    loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
 end)
 
 Section:NewButton("Nexus Hub", "A hub that probally uses the same library as us", function()
