@@ -40,6 +40,10 @@ Section:NewButton("NoobSploit", "For kohls admin house", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/noobhosting/noobscript/main/NoobSploit.lua"))()
 end)
 
+Section:NewButton("Domain X", "Some cool script", function()
+    loadstring(game:HttpGet('https://shlex.dev/release/domainx/latest.lua',true))()
+end)
+
 --Player
 local Tab = Window:NewTab("Player")
 local Section = Tab:NewSection("Player Stuff")
