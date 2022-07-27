@@ -1,6 +1,13 @@
 local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("Core FE", "Synapse")
 
+--Chanelog
+
+local Tab = Window:NewTab("Chanelog")
+local Section = Tab:NewSection("New Stuff")
+
+Section:NewLabel("Pretty much only the changelog.")
+
 --Home
 local Tab = Window:NewTab("Home")
 local Section = Tab:NewSection("Home")
