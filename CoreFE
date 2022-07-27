@@ -35,7 +35,9 @@ Section:NewButton("Nexus Hub", "A hub that probally uses the same library as us"
     loadstring(game:HttpGet("https://raw.githubusercontent.com/GwnStefano/NexusHub/main/Main", true))()
 end)
 
-
+Section:NewButton("NoobSploit", "For kohls admin house", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/noobhosting/noobscript/main/NoobSploit.lua"))()
+end)
 
 --Player
 local Tab = Window:NewTab("Player")
