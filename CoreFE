@@ -10,6 +10,7 @@ Section:NewLabel("We were originally Core Serverside but it ended.")
 Section:NewLabel("Our discord link:")
 Section:NewLabel("https://discord.gg/CkCnYyf73K")
 Section:NewLabel("Dont join the discord yet its not done!")
+Section:NewLabel("Added Topkek FE in Misc.")
 
 --Main
 local Tab = Window:NewTab("Main")
