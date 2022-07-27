@@ -64,3 +64,7 @@ local Section = Tab:NewSection("Misc")
 Section:NewButton("Chat Spoofer", "Chat as someone else", function()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
 end)
+
+Section:NewButton("Topkek FE", "Just an fe version of TopKek", function()
+    loadstring(game:HttpGet("https://github.com/Sarthepro/topkek/raw/main/Main",true))();
+end)
