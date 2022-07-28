@@ -11,7 +11,7 @@ Section:NewLabel("Our discord link:")
 Section:NewLabel("https://discord.gg/CkCnYyf73K")
 Section:NewLabel("Dont join the discord yet its not done!")
 Section:NewLabel("Added Topkek FE in Misc.")
-Section:NewKeybind("Toggle UI", "This will toggle the ui", Enum.KeyCode.F, function()
+Section:NewKeybind("Toggle UI", "This will toggle the ui", Enum.KeyCode.E, function()
 	Library:ToggleUI()
 end)
 
