@@ -76,3 +76,26 @@ end)
 Section:NewButton("SimpleSpy", "A great remote spy!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/exxtremestuffs/SimpleSpySource/master/SimpleSpy.lua",true))()
 end)
+
+local Tab = Window:NewTab("Prison Life")
+local Section = Tab:NewSection("These are remotes!")
+
+Section:NewButton("Open prison gate", "The name says it?
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sarthepro/gate/main/Main",true))();
+end)
+
+Section:NewButton("Give AK", "The name says it?
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sarthepro/ak47/main/Main",true))();
+end)
+
+Section:NewButton("Get keycard", "a", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sarthepro/card/main/Main",true))();
+end)
+
+Section:NewButton("Get m9", "a", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sarthepro/m9/main/Main",true))();
+end)
+
+Section:NewButton("Get remington", "a", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sarthepro/remington/main/Main",true))();
+end)
