@@ -11,9 +11,6 @@ Section:NewLabel("Our discord link:")
 Section:NewLabel("https://discord.gg/CkCnYyf73K")
 Section:NewLabel("Dont join the discord yet its not done!")
 Section:NewLabel("Added Topkek FE in Misc.")
-Section:NewKeybind("Toggle UI", "This will toggle the ui", Enum.KeyCode.E, function()
-	Library:ToggleUI()
-end)
 
 --Main
 local Tab = Window:NewTab("Main")
@@ -76,6 +73,8 @@ end)
 Section:NewButton("SimpleSpy", "A great remote spy!", function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/exxtremestuffs/SimpleSpySource/master/SimpleSpy.lua",true))()
 end)
+
+--Prison Life
 
 local Tab = Window:NewTab("Prison Life")
 local Section = Tab:NewSection("These are remotes!")
